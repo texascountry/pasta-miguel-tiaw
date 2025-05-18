@@ -1,0 +1,25 @@
+{
+  "name": "tiaw",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/texascountry/pasta-miguel-tiaw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/texascountry/pasta-miguel-tiaw/issues"
+  },
+  "homepage": "https://github.com/texascountry/pasta-miguel-tiaw#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}

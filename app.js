@@ -77,4 +77,10 @@ function carregarRespostas() {
     });
 }
 
-    
+    fetch('http://localhost:3000/comentarios/1', {
+  method: 'PATCH',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ texto: 'Comentário atualizado!' })
+})
+.then(res => res.json())
+.then(data => console.log(data));
